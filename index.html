@@ -34,7 +34,7 @@
                 var layer = new OpenLayers.Layer.Vector("Polygon", {
                     strategies: [new OpenLayers.Strategy.Fixed()],
                     protocol: new OpenLayers.Protocol.HTTP({
-                        url: "myosmfile.osm",   //<-- relative or absolute URL to your .osm file
+                        url: "../myosmfile.osm",   //<-- relative or absolute URL to your .osm file
                         format: new OpenLayers.Format.OSM()
                     }),
                     projection: new OpenLayers.Projection("EPSG:4326")
